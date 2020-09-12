@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e778fc9e09d5c242aca61ef646430d9, type: 3}
+  m_Name: ShopSettingsRange
+  m_EditorClassIdentifier: 
+  minionData: {fileID: 11400000, guid: 463089722edad9e4a8faa3e4f287e24d, type: 2}
+  creationSpeed: 0.05
+  shopDatas:
+  - upgradeCost: 100
+    unitParameters:
+      attack: 1.2
+      armor: 0
+      healPointsMax: 2
+      speed: 0.6
+      attackSpeed: 0.4
+      attackRange: 2
+    creatingSpeedUp: 0.05
+  - upgradeCost: 300
+    unitParameters:
+      attack: 1.2
+      armor: 0
+      healPointsMax: 2
+      speed: 0.6
+      attackSpeed: 0.4
+      attackRange: 2
+    creatingSpeedUp: 0.05
+  - upgradeCost: 500
+    unitParameters:
+      attack: 1.2
+      armor: 0
+      healPointsMax: 2
+      speed: 0.6
+      attackSpeed: 0.4
+      attackRange: 2
+    creatingSpeedUp: 0.05
+  - upgradeCost: 700
+    unitParameters:
+      attack: 1.2
+      armor: 0
+      healPointsMax: 2
+      speed: 0.6
+      attackSpeed: 0.4
+      attackRange: 2
+    creatingSpeedUp: 0.05
+  - upgradeCost: 900
+    unitParameters:
+      attack: 1.2
+      armor: 0
+      healPointsMax: 2
+      speed: 0.6
+      attackSpeed: 0.4
+      attackRange: 2
+    creatingSpeedUp: 0.05

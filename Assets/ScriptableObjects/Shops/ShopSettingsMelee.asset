@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e778fc9e09d5c242aca61ef646430d9, type: 3}
+  m_Name: ShopSettingsMelee
+  m_EditorClassIdentifier: 
+  minionData: {fileID: 11400000, guid: 9dcf4aed64f20ff4fa79050d04f166ea, type: 2}
+  creationSpeed: 0.05
+  shopDatas:
+  - upgradeCost: 100
+    unitParameters:
+      attack: 2
+      armor: 0.2
+      healPointsMax: 5
+      speed: 0.4
+      attackSpeed: 0.2
+      attackRange: 0.1
+    creatingSpeedUp: 0.075
+  - upgradeCost: 200
+    unitParameters:
+      attack: 2
+      armor: 0.2
+      healPointsMax: 5
+      speed: 0.4
+      attackSpeed: 0.2
+      attackRange: 0.1
+    creatingSpeedUp: 0.075
+  - upgradeCost: 300
+    unitParameters:
+      attack: 2
+      armor: 0.2
+      healPointsMax: 5
+      speed: 0.4
+      attackSpeed: 0.2
+      attackRange: 0.1
+    creatingSpeedUp: 0.075
+  - upgradeCost: 400
+    unitParameters:
+      attack: 2
+      armor: 0.2
+      healPointsMax: 5
+      speed: 0.4
+      attackSpeed: 0.2
+      attackRange: 0.1
+    creatingSpeedUp: 0.075
+  - upgradeCost: 500
+    unitParameters:
+      attack: 2
+      armor: 0.2
+      healPointsMax: 5
+      speed: 0.4
+      attackSpeed: 0.2
+      attackRange: 0.1
+    creatingSpeedUp: 0.075

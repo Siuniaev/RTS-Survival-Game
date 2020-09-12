@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0439dc28ff9664c4f8f87f65b607524e, type: 3}
+  m_Name: EnemyRange
+  m_EditorClassIdentifier: 
+  unitName: 'Enemy: Ranged Fighter'
+  prefab: {fileID: 8946136533999825721, guid: 05df20bbc3d824a4d8a8fef5178887e4, type: 3}
+  weaponData: {fileID: 11400000, guid: 0478bdb4127cd6046b5384c457150627, type: 2}
+  parameters:
+    attack: 1.2
+    armor: 0
+    healPointsMax: 12
+    speed: 1.6
+    attackSpeed: 2
+    attackRange: 10
+  goldForDie: 10
+  expForDie: 30

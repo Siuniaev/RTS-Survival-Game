@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf64a21d7bbc6e44a360357d7113e70, type: 3}
+  m_Name: MinionRange
+  m_EditorClassIdentifier: 
+  unitName: 'Minion: Ranged Fighter'
+  prefab: {fileID: 8946136533999825721, guid: 431b80b971dfd2e40b4c03eec72fc1c8, type: 3}
+  weaponData: {fileID: 11400000, guid: 0478bdb4127cd6046b5384c457150627, type: 2}
+  parameters:
+    attack: 1
+    armor: 0
+    healPointsMax: 10
+    speed: 1.2
+    attackSpeed: 1.5
+    attackRange: 10

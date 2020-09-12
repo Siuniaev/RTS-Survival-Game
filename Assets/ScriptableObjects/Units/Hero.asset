@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d18f7bd281d4a94a85f6d205e8d2555, type: 3}
+  m_Name: Hero
+  m_EditorClassIdentifier: 
+  unitName: Hero
+  prefab: {fileID: 8946136533999825721, guid: 6a7e48a31bf2b724f9366b0c5ff1e520, type: 3}
+  weaponData: {fileID: 11400000, guid: d05f4b146aa067941a9868a27f975d81, type: 2}
+  parameters:
+    attack: 6
+    armor: 0.5
+    healPointsMax: 30
+    speed: 2
+    attackSpeed: 1.2
+    attackRange: 2.2
+  manaPointsMax: 10
+  upgrades:
+  - upgradeCost: 100
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 200
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 300
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 400
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 500
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 600
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 700
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 800
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  - upgradeCost: 900
+    unitParameters:
+      attack: 2
+      armor: 0.1
+      healPointsMax: 20
+      speed: 0.5
+      attackSpeed: 0.2
+      attackRange: 0.2
+    manaPointsMaxUp: 5
+  skillDatas:
+  - {fileID: 11400000, guid: f6db3fee830ec4c40a36027605964e04, type: 2}
+  - {fileID: 11400000, guid: f6db3fee830ec4c40a36027605964e04, type: 2}
+  - {fileID: 11400000, guid: e8ae0ece460d73e47a6b42e522a94a3e, type: 2}
+  - {fileID: 11400000, guid: e8ae0ece460d73e47a6b42e522a94a3e, type: 2}

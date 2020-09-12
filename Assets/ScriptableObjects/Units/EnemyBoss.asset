@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0439dc28ff9664c4f8f87f65b607524e, type: 3}
+  m_Name: EnemyBoss
+  m_EditorClassIdentifier: 
+  unitName: 'Enemy: Boss Fighter'
+  prefab: {fileID: 8946136533999825721, guid: e24471953fb03c1439d6670e280a2806, type: 3}
+  weaponData: {fileID: 11400000, guid: d05f4b146aa067941a9868a27f975d81, type: 2}
+  parameters:
+    attack: 15
+    armor: 0.6
+    healPointsMax: 50
+    speed: 0.6
+    attackSpeed: 0.6
+    attackRange: 4
+  goldForDie: 20
+  expForDie: 50

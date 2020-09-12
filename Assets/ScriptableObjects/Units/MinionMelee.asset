@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf64a21d7bbc6e44a360357d7113e70, type: 3}
+  m_Name: MinionMelee
+  m_EditorClassIdentifier: 
+  unitName: 'Minion: Melee Fighter'
+  prefab: {fileID: 8946136533999825721, guid: 89e342c9a47a63e4a9781d37793832c6, type: 3}
+  weaponData: {fileID: 11400000, guid: d05f4b146aa067941a9868a27f975d81, type: 2}
+  parameters:
+    attack: 3
+    armor: 0.2
+    healPointsMax: 12
+    speed: 1
+    attackSpeed: 1
+    attackRange: 1

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba672bdeb4d5e864dbc63bf7218fe0d8, type: 3}
+  m_Name: IceBolt
+  m_EditorClassIdentifier: 
+  skillName: Ice Bolt
+  description: Deals damage to a selected Unit and freeze it.
+  hotKey: 101
+  targetingMode: {fileID: 11400000, guid: d331517f37cd30c4682a800d749b1d14, type: 2}
+  parameters:
+    manaCost: 2
+    cooldown: 3
+    usingRadius: 14
+    arrowPrefab: {fileID: 3632733233347979471, guid: 91230e9a3c2891940a90660733c3801d,
+      type: 3}
+    arrowSpeed: 10
+    effectFreeze:
+      damage: 10
+      durationFreezing: 10
+      coefFreezeSpeed: 0.5
+      activationParticlesPrefab: {fileID: 6979193324150257310, guid: cf4786266b3e9e8489bc465c35dc02f8,
+        type: 3}
+      iceCubePrefab: {fileID: 5734929934678498937, guid: 0f38c08814599fd4ab8b67f56df7b259,
+        type: 3}
+  upgrades:
+  - manaCost: 3
+    cooldown: 5
+    usingRadius: 21
+    arrowPrefab: {fileID: 8440819324641923985, guid: ad74267ae01845b41b8233ba21fd0a59,
+      type: 3}
+    arrowSpeed: 15
+    effectFreeze:
+      damage: 15
+      durationFreezing: 15
+      coefFreezeSpeed: 0.5
+      activationParticlesPrefab: {fileID: 6979193324150257310, guid: cf4786266b3e9e8489bc465c35dc02f8,
+        type: 3}
+      iceCubePrefab: {fileID: 5734929934678498937, guid: 0f38c08814599fd4ab8b67f56df7b259,
+        type: 3}
